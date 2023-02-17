@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+* p{
+  font-family: 'Kanit', sans-serif;
+}
+
+body{
+  background-color: black;
+}
+
+#body{
+  height: 100%;
+}
+
+#menuSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  margin-top: 60%;
+  padding: 40px;
+  border-radius: 8px;
+  border: 2px solid dodgerBlue;
+  box-shadow: 0 0 10px 0 dodgerBlue;
+}
+
+#menuSection #container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container #area, #showWeather{
+  width: 100%;
+  background-color: black;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1.5px solid dodgerBlue;
+  text-align: center;
+}
+
+#container #showWeather{
+  margin: 60px 0 10px 0;
+}
+
+#container #area:hover, #showWeather:active{
+  box-shadow: 0 0 10px 0 dodgerBlue;
+}
+
+#container #showWeather:active{
+  font-size: 14px;
+  margin: 61px 0 11px 0;
+  width: 96%;
+}
+
+#menuSection #process{
+  display: none;
+  width: 150px;
+  height: 150px;
+}
+
+
+#weatherSection{
+  display: none;
+  text-align: center;
+  margin: 20px;
+  margin-top: 50%;
+  padding: 20px 0;
+  border-radius: 8px;
+  border: 2px solid dodgerBlue;
+  box-shadow: 0 0 10px 0 dodgerBlue;
+}
+
+#weatherSection #area{
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+#weatherSection #sun{
+  margin-bottom: 26px;
+}
+
+#weatherSection #container2{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+#weatherSection #box1{
+  border-right: 1px solid dodgerBlue;
+  padding: 0 10px;
+}
+
+#weatherSection #box1 img{
+  width: 60px;
+  height: 60px;
+  margin-top: 8px;
+}
+
+#weatherSection #box1 p{
+  margin-top: -10px;
+}
+
+#weatherSection #box2{
+  padding-right: 10px;
+  text-align: left;
+}
+
+#weatherSection #box2 p{
+  margin: 5px;
+}
+
+#weatherSection .text{
+  color: #3ff63f;
+}
+
+#weatherSection #continue{
+  width: 90%;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 6px;
+  border: 2px solid dodgerBlue;
+  outline: none;
+  font-size: 16px;
+}
+
+#weatherSection #continue:active{
+  box-shadow: 0 0 10px 0 dodgerBlue;
+  width: 86%;
+  font-size: 14px;
+  margin-top: 31px;
+  margin-bottom: 1px;
+}
+
+
