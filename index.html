@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Space+Grotesk&display=swap" rel="stylesheet">
+  <script src="js/index.js" type="text/javascript" charset="utf-8" defer></script>
+  <title>Weather</title>
+</head>
+<body>
+
+  <div id="body">
+
+    <div id="menuSection">
+
+      <img src="icons/processing.gif" alt="Processing Icon" id="process" />
+
+      <div id="container">
+        <input list="areas" id="area" placeholder="Select Your Area...">
+        <datalist id="areas">
+          <option value="Bandarban">Bandarban</option>
+          <option value="Barishal">Barishal</option>
+          <option value="Bhola">Bhola</option>
+          <option value="Brahmanbaria">Brahmanbaria</option>
+          <option value="Chandpur">Chandpur</option>
+          <option value="Cox's Bazar">Cox's Bazar</option>
+          <option value="Dhaka">Dhaka</option>
+          <option value="Dinajpur">Dinajpur</option>
+          <option value="Faridpur">Faridpur</option>
+          <option value="Feni">Feni</option>
+          <option value="Gaibandha">Gaibandha</option>
+          <option value="Gazipur">Gazipur</option>
+          <option value="Gopalganj">Gopalganj</option>
+          <option value="Habiganj">Habiganj</option>
+          <option value="Jamalpur">Jamalpur</option>
+          <option value="Jhalokati">Jhalokati</option>
+          <option value="Jhenaidah">Jhenaidah</option>
+          <option value="Joypurhat">Joypurhat</option>
+          <option value="Khulna">Khulna</option>
+          <option value="Kishoreganj">Kishoreganj</option>
+          <option value="Kurigram">Kurigram</option>
+          <option value="Kushtia">Kushtia</option>
+          <option value="Lakshmipur">Lakshmipur</option>
+          <option value="Lalmonirhat">Lalmonirhat</option>
+          <option value="Madaripur">Madaripur</option>
+          <option value="Magura">Magura</option>
+          <option value="Manikganj">Manikganj</option>
+          <option value="Munshiganj">Munshiganj</option>
+          <option value="Mymensingh">Mymensingh</option>
+          <option value="Naogaon">Naogaon</option>
+          <option value="Narail">Narail</option>
+          <option value="Narayanganj">Narayanganj</option>
+          <option value="Narsingdi">Narsingdi</option>
+          <option value="Nawabganj">Nawabganj</option>
+          <option value="Netrokona">Netrokona</option>
+          <option value="Nilphamari">Nilphamari</option>
+          <option value="Pabna">Pabna</option>
+          <option value="Panchagarh">Panchagarh</option>
+          <option value="Patuakhali">Patuakhali</option>
+          <option value="Pirojpur">Pirojpur</option>
+          <option value="Rajbari">Rajbari</option>
+          <option value="Rajshahi">Rajshahi</option>
+          <option value="Rangpur">Rangpur</option>
+          <option value="Satkhira">Satkhira</option>
+          <option value="Shariatpur">Shariatpur</option>
+          <option value="Sherpur">Sherpur</option>
+          <option value="Sylhet">Sylhet</option>
+          <option value="Tangail">Tangail</option>
+          <option value="Thakurgaon">Thakurgaon</option>
+        </datalist>
+
+        <button type="button" id="showWeather">Show Weather</button>
+      </div>
+    </div>
+
+    <div id="weatherSection">
+
+      <p id="area">
+        <span id="city">Rangpur</span>,&nbsp;<span id="country">BD</span>
+      </p>
+      <p id="sun">
+        <span class="text">Sunrise: </span><span id="sunrise">6:30PM</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="text">Sunset: </span><span id="sunset">6:30AM</span>
+      </p>
+
+      <div id="container2">
+        <div id="box1">
+
+          <img src="http://openweathermap.org/img/w/04d.png" alt="Icon" id="weatherIcon" />
+          <p>
+            <span id="temp">37&nbsp;</span>° C
+          </p>
+
+        </div>
+
+        <div id="box2">
+
+          <p>
+            <span class="text">Feels Like:</span>&nbsp;&nbsp;<span id="feels">44</span>° Celsius
+          </p>
+          <p>
+            <span class="text">Sky:</span>&nbsp;&nbsp;<span id="sky">Overcast Clouds</span>
+          </p>
+          <p>
+            <span class="text">Humidity:</span>&nbsp;&nbsp;<span id="humidity">88</span>%
+          </p>
+          <p>
+            <span class="text">Wind:</span>&nbsp;&nbsp;<span id="wind">0.6</span>&nbsp;m/s
+          </p>
+
+        </div>
+      </div>
+      <button type="button" id="continue">Try Again...</button>
+    </div>
+
+
+  </div>
+
+</body>
+</html>
